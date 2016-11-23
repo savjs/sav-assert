@@ -1,10 +1,11 @@
 import { types, isObject as utilIsObject } from 'sav-util'
+import {AssertError} from './AssertError'
 
 const prefix = 'ASSERT'
 
 function testAssert (expr, msg) {
   if (!expr) {
-    throw new Error(msg)
+    throw new AssertError(msg)
   }
 }
 

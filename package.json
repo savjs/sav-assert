@@ -1,6 +1,6 @@
 {
   "name": "sav-assert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "assert for savjs",
   "main": "dist/sav-assert.cjs.js",
   "module": "dist/sav-assert.es.js",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/savjs/sav-assert#readme",
   "dependencies": {
-    "sav-util": "^0.0.3"
+    "sav-util": "^0.0.4"
   }
 }
