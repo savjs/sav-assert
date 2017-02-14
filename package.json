@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/savjs/sav-assert#readme",
   "dependencies": {
-    "sav-util": "^0.0.4"
+    "sav-util": "^0.0.9"
   }
 }
